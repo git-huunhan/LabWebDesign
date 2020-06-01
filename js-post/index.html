@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a42e0e85b7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header" id="header">
+      <a href="../index.html">
+        <h1>Web Design</h1>
+      </a>
+    </div>
+    <div class="row">
+      <div class="blog-post" style="display: block; padding: 1rem;">
+        <div class="blog-post__info" style="text-align: center;">
+          <h1 class="blog-post__title">JavaScript</h1>
+        </div>
+      </div>
+
+      <div class="blog-post" style="display: block; width: 100rem;">
+        <div class="blog-post__info" style="text-align: center;">
+          <h1 class="blog-post__title">If...Else, Date</h1>
+        </div>
+        <iframe
+          height="600px"
+          width="100%"
+          src="https://repl.it/@NhanDang1/IfElseDate?lite=true"
+          scrolling="no"
+          frameborder="no"
+          allowtransparency="true"
+          allowfullscreen="true"
+          sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"
+        ></iframe>
+      </div>
+
+      <div class="blog-post" style="display: block; width: 100rem;">
+        <div class="blog-post__info" style="text-align: center;">
+          <h1 class="blog-post__title">For Loop</h1>
+        </div>
+        <iframe
+          height="600px"
+          width="100%"
+          src="https://repl.it/@NhanDang1/ForLoop?lite=true"
+          scrolling="no"
+          frameborder="no"
+          allowtransparency="true"
+          allowfullscreen="true"
+          sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"
+        ></iframe>
+      </div>
+
+      <div class="blog-post" style="display: block; width: 100rem;">
+        <div class="blog-post__info" style="text-align: center;">
+          <h1 class="blog-post__title">Math</h1>
+        </div>
+        <iframe height="400px" width="100%" src="https://repl.it/@NhanDang1/Math?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+      </div>
+
+      <div class="blog-post" style="display: block; width: 100rem;">
+        <div class="blog-post__info" style="text-align: center;">
+          <h1 class="blog-post__title">DOM</h1>
+        </div>
+        <form>
+          1st Number : <input type="text" id="firstNumber" /><br />
+          2nd Number: <input type="text" id="secondNumber" /><br />
+          <input type="button" onClick="multiplyBy()" value="Multiply" />
+          <input type="button" onClick="divideBy()" value="Divide" />
+        </form>
+        <p>
+          The Result is :
+          <span id="result"></span>
+        </p>
+      </div>
+
+      <div class="footer">
+        <button id="top" class="fas fa-chevron-up"></button>
+        <h1>CTK41 | Dang Tran Huu Nhan | 1710233</h1>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../main.js"></script>
+  </body>
+</html>
